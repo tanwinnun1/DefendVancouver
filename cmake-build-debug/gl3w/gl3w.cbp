@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gl3w"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\glfw-3.2.1\;CMake Files\glfw-3.2.1\CMake\;CMake Files\glfw-3.2.1\CMake\modules\;CMake Files\glfw-3.2.1\src\;CMake Files\gl3w\;CMake Files\gl3w\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/gl3w"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/gl3w/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/gl3w/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/gl3w/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/gl3w/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl3w_gen">
+				<Option working_dir="/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/gl3w"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/gl3w/Makefile&quot;  VERBOSE=1 gl3w_gen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/gl3w/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/gl3w/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/gl3w/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/glfw-3.2.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/glfw-3.2.1/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\glfw-3.2.1\"/>
+		</Unit>
+		<Unit filename="/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/glfw-3.2.1/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\glfw-3.2.1\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/glfw-3.2.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/glfw-3.2.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/glfw-3.2.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/glfw-3.2.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\glfw-3.2.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/gl3w/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gl3w\"/>
+		</Unit>
+		<Unit filename="/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/gl3w/cmake/gl3w-config.cmake">
+			<Option virtualFolder="CMake Files\gl3w\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
