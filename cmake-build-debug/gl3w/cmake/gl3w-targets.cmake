@@ -49,9 +49,9 @@ unset(_expectedTargets)
 add_library(gl3w INTERFACE IMPORTED)
 
 set_target_properties(gl3w PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/gl3w/include;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/gl3w/include;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"
   INTERFACE_LINK_LIBRARIES "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"
-  INTERFACE_SOURCES "/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/gl3w/src/gl3w.c"
+  INTERFACE_SOURCES "/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/gl3w/src/gl3w.c"
 )
 
 # This file does not depend on other imported targets which have

@@ -14,7 +14,7 @@ set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 
 add_subdirectory("glfw-3.2.1")
-#add_subdirectory("gl3w")
+add_subdirectory("gl3w")
 #add_subdirectory("glm-0.9.7.1")
 
 

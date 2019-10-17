@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master
+CMAKE_SOURCE_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-mast
 include glfw-3.2.1/CMakeFiles/uninstall.dir/progress.make
 
 glfw-3.2.1/CMakeFiles/uninstall:
-	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/glfw-3.2.1 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/glfw-3.2.1/cmake_uninstall.cmake
+	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/glfw-3.2.1 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/glfw-3.2.1/cmake_uninstall.cmake
 
 uninstall: glfw-3.2.1/CMakeFiles/uninstall
 uninstall: glfw-3.2.1/CMakeFiles/uninstall.dir/build.make
@@ -67,10 +67,10 @@ glfw-3.2.1/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : glfw-3.2.1/CMakeFiles/uninstall.dir/build
 
 glfw-3.2.1/CMakeFiles/uninstall.dir/clean:
-	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/glfw-3.2.1 && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/glfw-3.2.1 && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : glfw-3.2.1/CMakeFiles/uninstall.dir/clean
 
 glfw-3.2.1/CMakeFiles/uninstall.dir/depend:
-	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/glfw-3.2.1 /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/glfw-3.2.1 /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/glfw-3.2.1/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/glfw-3.2.1 /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/glfw-3.2.1 /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/glfw-3.2.1/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : glfw-3.2.1/CMakeFiles/uninstall.dir/depend
 

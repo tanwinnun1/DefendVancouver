@@ -13,7 +13,7 @@ Player::Player(World &world) : Entity(world), m_nextBulletSpawn(0.f) {}
 bool Player::init() {
     std::vector<uint16_t> indices;
 
-    // Reads the salmon mesh from a file, which contains a list of vertices and indices
+    // Reads the mesh from a file, which contains a list of vertices and indices
     mesh_file = fopen(mesh_path("player.mesh"), "r");
     if (mesh_file == nullptr) {
         std::cout << "mesh file not loaded";

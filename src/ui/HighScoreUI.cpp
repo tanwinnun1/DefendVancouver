@@ -2,6 +2,7 @@
 // Created by Shrey Swades Nayak on 2018-04-14.
 //
 
+#include <iostream>
 #include "HighScoreUI.hpp"
 #include "UI.hpp"
 
@@ -46,13 +47,19 @@ bool HighScoreUI::init() {
         m_digits.emplace_back(seventhDigit);
     }
 
-    firstDigit->setPosition({(UIsize.x/2)-90.f, 350.f});
-    secondDigit->setPosition({(UIsize.x/2)-60.f, 350.f});
-    thirdDigit->setPosition({(UIsize.x/2)-30.f, 350.f});
-    fourthDigit->setPosition({(UIsize.x/2), 350.f});
-    fifthDigit->setPosition({(UIsize.x/2)+30.f, 350.f});
-    sixthDigit->setPosition({(UIsize.x/2)+60.f, 350.f});
-    seventhDigit->setPosition({(UIsize.x/2)+90.f, 350.f});
+    float x1 = 90.f;
+    float x2 = 60.f;
+    float x3 = 30.f;
+    float y = UIsize.y/2;
+    float denom = 2.5f;
+
+    firstDigit->setPosition({(UIsize.x/denom)-x1, y});
+    secondDigit->setPosition({(UIsize.x/denom)-x2, y});
+    thirdDigit->setPosition({(UIsize.x/denom)-x3, y});
+    fourthDigit->setPosition({(UIsize.x/denom), y});
+    fifthDigit->setPosition({(UIsize.x/denom)+x3, y});
+    sixthDigit->setPosition({(UIsize.x/denom)+x2, y});
+    seventhDigit->setPosition({(UIsize.x/denom)+x1, y});
 
     return true;
 }

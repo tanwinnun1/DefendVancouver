@@ -15,6 +15,11 @@
 
 typedef pair<int, int> Pair;
 // Same as static in c, local to compilation unit
+// States:  0: main page
+//          1: game state
+//          2: info
+//          3: game over
+//          4: highscore
 namespace {
 
     size_t MAX_BOMBERBOMBS = 0;
@@ -132,7 +137,7 @@ bool World::init(vec2 screenSize, vec2 worldSize) {
     m_waveNo = 1;
     m_size = worldSize;
     m_camera = Camera(screenSize, worldSize);
-    m_ui = UI(screenSize, *this);
+    m_ui = UI(worldSize, *this);
     m_ui.init();
     m_quad = QuadTreeNode(0, {{0.f, 0.f}, worldSize});
     initGraphics();
@@ -745,6 +750,7 @@ void World::onKey(GLFWwindow *, int key, int, int action, int mod) {
         if (action == GLFW_PRESS) {
             stateStack.push(m_state);
             m_state = 2;
+            std::cout << getState();
             m_ui.destroy();
             m_ui.init();
         }

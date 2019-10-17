@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master
+CMAKE_SOURCE_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/glfw-3.2.1/CMakeFiles/progress.marks
-	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 glfw-3.2.1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles 0
+	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/glfw-3.2.1/CMakeFiles/progress.marks
+	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 glfw-3.2.1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 glfw-3.2.1/clean
+	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 glfw-3.2.1/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 glfw-3.2.1/preinstall
+	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 glfw-3.2.1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 glfw-3.2.1/preinstall
+	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 glfw-3.2.1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 glfw-3.2.1/CMakeFiles/uninstall.dir/rule:
-	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 glfw-3.2.1/CMakeFiles/uninstall.dir/rule
+	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 glfw-3.2.1/CMakeFiles/uninstall.dir/rule
 .PHONY : glfw-3.2.1/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ uninstall: glfw-3.2.1/CMakeFiles/uninstall.dir/rule
 
 # fast build rule for target.
 uninstall/fast:
-	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug && $(MAKE) -f glfw-3.2.1/CMakeFiles/uninstall.dir/build.make glfw-3.2.1/CMakeFiles/uninstall.dir/build
+	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug && $(MAKE) -f glfw-3.2.1/CMakeFiles/uninstall.dir/build.make glfw-3.2.1/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 # Help Target
@@ -195,6 +195,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

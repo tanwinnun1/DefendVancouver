@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master
+CMAKE_SOURCE_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug
 
 # Utility rule file for gl3w_gen.
 
@@ -59,8 +59,8 @@ gl3w/CMakeFiles/gl3w_gen: gl3w/include/GL/glcorearb.h
 
 
 gl3w/src/gl3w.c: ../gl3w/gl3w_gen.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating src/gl3w.c, include/GL/gl3w.h, include/GL/glcorearb.h"
-	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/gl3w && python /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/gl3w/gl3w_gen.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating src/gl3w.c, include/GL/gl3w.h, include/GL/glcorearb.h"
+	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/gl3w && python /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/gl3w/gl3w_gen.py
 
 gl3w/include/GL/gl3w.h: gl3w/src/gl3w.c
 	@$(CMAKE_COMMAND) -E touch_nocreate gl3w/include/GL/gl3w.h
@@ -82,10 +82,10 @@ gl3w/CMakeFiles/gl3w_gen.dir/build: gl3w_gen
 .PHONY : gl3w/CMakeFiles/gl3w_gen.dir/build
 
 gl3w/CMakeFiles/gl3w_gen.dir/clean:
-	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/gl3w && $(CMAKE_COMMAND) -P CMakeFiles/gl3w_gen.dir/cmake_clean.cmake
+	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/gl3w && $(CMAKE_COMMAND) -P CMakeFiles/gl3w_gen.dir/cmake_clean.cmake
 .PHONY : gl3w/CMakeFiles/gl3w_gen.dir/clean
 
 gl3w/CMakeFiles/gl3w_gen.dir/depend:
-	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/gl3w /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/gl3w /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/gl3w/CMakeFiles/gl3w_gen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/gl3w /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/gl3w /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/gl3w/CMakeFiles/gl3w_gen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gl3w/CMakeFiles/gl3w_gen.dir/depend
 

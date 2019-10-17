@@ -1,4 +1,4 @@
-# Install script for directory: /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/gl3w
+# Install script for directory: /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/gl3w
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

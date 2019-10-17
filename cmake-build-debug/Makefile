@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master
+CMAKE_SOURCE_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -194,6 +194,19 @@ glfw: cmake_check_build_system
 glfw/fast:
 	$(MAKE) -f glfw-3.2.1/src/CMakeFiles/glfw.dir/build.make glfw-3.2.1/src/CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
+
+#=============================================================================
+# Target rules for targets named gl3w_gen
+
+# Build rule for target.
+gl3w_gen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gl3w_gen
+.PHONY : gl3w_gen
+
+# fast build rule for target.
+gl3w_gen/fast:
+	$(MAKE) -f gl3w/CMakeFiles/gl3w_gen.dir/build.make gl3w/CMakeFiles/gl3w_gen.dir/build
+.PHONY : gl3w_gen/fast
 
 gl3w/src/gl3w.o: gl3w/src/gl3w.c.o
 
@@ -1776,6 +1789,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... uninstall"
 	@echo "... glfw"
+	@echo "... gl3w_gen"
 	@echo "... gl3w/src/gl3w.o"
 	@echo "... gl3w/src/gl3w.i"
 	@echo "... gl3w/src/gl3w.s"

@@ -7,11 +7,11 @@ C_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/glfw-3.2.1/include -isystem /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/gl3w/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks 
+C_INCLUDES = -I/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/glfw-3.2.1/include -I/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/gl3w/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks 
 
 CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/glfw-3.2.1/include -isystem /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/gl3w/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks 
+CXX_INCLUDES = -I/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/glfw-3.2.1/include -I/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/gl3w/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks 
 

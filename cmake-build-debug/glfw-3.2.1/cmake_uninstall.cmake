@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/glfw-3.2.1/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/glfw-3.2.1/install_manifest.txt\"")
+if (NOT EXISTS "/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/glfw-3.2.1/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/glfw-3.2.1/install_manifest.txt\"")
 endif()
 
-file(READ "/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/glfw-3.2.1/install_manifest.txt" files)
+file(READ "/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/glfw-3.2.1/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

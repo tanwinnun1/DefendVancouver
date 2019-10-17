@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master
+CMAKE_SOURCE_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DefendVancouver.dir/depend.make
@@ -59,757 +59,757 @@ include CMakeFiles/DefendVancouver.dir/flags.make
 
 CMakeFiles/DefendVancouver.dir/gl3w/src/gl3w.c.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/gl3w/src/gl3w.c.o: ../gl3w/src/gl3w.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DefendVancouver.dir/gl3w/src/gl3w.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DefendVancouver.dir/gl3w/src/gl3w.c.o   -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/gl3w/src/gl3w.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DefendVancouver.dir/gl3w/src/gl3w.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DefendVancouver.dir/gl3w/src/gl3w.c.o   -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/gl3w/src/gl3w.c
 
 CMakeFiles/DefendVancouver.dir/gl3w/src/gl3w.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DefendVancouver.dir/gl3w/src/gl3w.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/gl3w/src/gl3w.c > CMakeFiles/DefendVancouver.dir/gl3w/src/gl3w.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/gl3w/src/gl3w.c > CMakeFiles/DefendVancouver.dir/gl3w/src/gl3w.c.i
 
 CMakeFiles/DefendVancouver.dir/gl3w/src/gl3w.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DefendVancouver.dir/gl3w/src/gl3w.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/gl3w/src/gl3w.c -o CMakeFiles/DefendVancouver.dir/gl3w/src/gl3w.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/gl3w/src/gl3w.c -o CMakeFiles/DefendVancouver.dir/gl3w/src/gl3w.c.s
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/attack.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/attack.cpp.o: ../src/ai/behaviourTree/actions/attack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/attack.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/attack.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/actions/attack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/attack.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/attack.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/actions/attack.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/attack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/attack.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/actions/attack.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/attack.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/actions/attack.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/attack.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/attack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/attack.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/actions/attack.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/attack.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/actions/attack.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/attack.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/moveIntoRange.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/moveIntoRange.cpp.o: ../src/ai/behaviourTree/actions/moveIntoRange.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/moveIntoRange.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/moveIntoRange.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/actions/moveIntoRange.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/moveIntoRange.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/moveIntoRange.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/actions/moveIntoRange.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/moveIntoRange.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/moveIntoRange.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/actions/moveIntoRange.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/moveIntoRange.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/actions/moveIntoRange.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/moveIntoRange.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/moveIntoRange.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/moveIntoRange.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/actions/moveIntoRange.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/moveIntoRange.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/actions/moveIntoRange.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/moveIntoRange.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/rotateToTarget.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/rotateToTarget.cpp.o: ../src/ai/behaviourTree/actions/rotateToTarget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/rotateToTarget.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/rotateToTarget.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/actions/rotateToTarget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/rotateToTarget.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/rotateToTarget.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/actions/rotateToTarget.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/rotateToTarget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/rotateToTarget.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/actions/rotateToTarget.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/rotateToTarget.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/actions/rotateToTarget.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/rotateToTarget.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/rotateToTarget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/rotateToTarget.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/actions/rotateToTarget.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/rotateToTarget.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/actions/rotateToTarget.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/actions/rotateToTarget.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/behaviourTreeNode.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/behaviourTreeNode.cpp.o: ../src/ai/behaviourTree/behaviourTreeNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/behaviourTreeNode.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/behaviourTreeNode.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/behaviourTreeNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/behaviourTreeNode.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/behaviourTreeNode.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/behaviourTreeNode.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/behaviourTreeNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/behaviourTreeNode.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/behaviourTreeNode.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/behaviourTreeNode.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/behaviourTreeNode.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/behaviourTreeNode.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/behaviourTreeNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/behaviourTreeNode.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/behaviourTreeNode.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/behaviourTreeNode.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/behaviourTreeNode.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/behaviourTreeNode.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/compositeNode.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/compositeNode.cpp.o: ../src/ai/behaviourTree/compositeNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/compositeNode.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/compositeNode.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/compositeNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/compositeNode.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/compositeNode.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/compositeNode.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/compositeNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/compositeNode.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/compositeNode.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/compositeNode.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/compositeNode.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/compositeNode.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/compositeNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/compositeNode.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/compositeNode.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/compositeNode.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/compositeNode.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/compositeNode.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp.o: ../src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/IsPlayerNearBomb.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/areBombsInVision.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/areBombsInVision.cpp.o: ../src/ai/behaviourTree/conditions/areBombsInVision.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/areBombsInVision.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/areBombsInVision.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/conditions/areBombsInVision.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/areBombsInVision.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/areBombsInVision.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/conditions/areBombsInVision.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/areBombsInVision.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/areBombsInVision.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/conditions/areBombsInVision.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/areBombsInVision.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/conditions/areBombsInVision.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/areBombsInVision.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/areBombsInVision.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/areBombsInVision.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/conditions/areBombsInVision.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/areBombsInVision.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/conditions/areBombsInVision.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/areBombsInVision.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/isPlayerInVision.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/isPlayerInVision.cpp.o: ../src/ai/behaviourTree/conditions/isPlayerInVision.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/isPlayerInVision.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/isPlayerInVision.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/conditions/isPlayerInVision.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/isPlayerInVision.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/isPlayerInVision.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/conditions/isPlayerInVision.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/isPlayerInVision.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/isPlayerInVision.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/conditions/isPlayerInVision.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/isPlayerInVision.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/conditions/isPlayerInVision.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/isPlayerInVision.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/isPlayerInVision.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/isPlayerInVision.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/conditions/isPlayerInVision.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/isPlayerInVision.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/conditions/isPlayerInVision.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/conditions/isPlayerInVision.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/decoratorNode.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/decoratorNode.cpp.o: ../src/ai/behaviourTree/decorators/decoratorNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/decoratorNode.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/decoratorNode.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/decorators/decoratorNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/decoratorNode.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/decoratorNode.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/decorators/decoratorNode.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/decoratorNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/decoratorNode.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/decorators/decoratorNode.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/decoratorNode.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/decorators/decoratorNode.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/decoratorNode.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/decoratorNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/decoratorNode.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/decorators/decoratorNode.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/decoratorNode.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/decorators/decoratorNode.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/decoratorNode.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp.o: ../src/ai/behaviourTree/decorators/repeatUntilFailure.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/repeatUntilFailure.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/succeeder.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/succeeder.cpp.o: ../src/ai/behaviourTree/decorators/succeeder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/succeeder.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/succeeder.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/decorators/succeeder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/succeeder.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/succeeder.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/decorators/succeeder.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/succeeder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/succeeder.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/decorators/succeeder.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/succeeder.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/decorators/succeeder.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/succeeder.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/succeeder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/succeeder.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/decorators/succeeder.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/succeeder.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/decorators/succeeder.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/decorators/succeeder.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/selectorNode.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/selectorNode.cpp.o: ../src/ai/behaviourTree/selectorNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/selectorNode.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/selectorNode.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/selectorNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/selectorNode.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/selectorNode.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/selectorNode.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/selectorNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/selectorNode.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/selectorNode.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/selectorNode.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/selectorNode.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/selectorNode.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/selectorNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/selectorNode.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/selectorNode.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/selectorNode.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/selectorNode.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/selectorNode.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/sequenceNode.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/sequenceNode.cpp.o: ../src/ai/behaviourTree/sequenceNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/sequenceNode.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/sequenceNode.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/sequenceNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/sequenceNode.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/sequenceNode.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/sequenceNode.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/sequenceNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/sequenceNode.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/sequenceNode.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/sequenceNode.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/sequenceNode.cpp > CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/sequenceNode.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/sequenceNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/sequenceNode.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/behaviourTree/sequenceNode.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/sequenceNode.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/behaviourTree/sequenceNode.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/behaviourTree/sequenceNode.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ai/bomberAI.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ai/bomberAI.cpp.o: ../src/ai/bomberAI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/bomberAI.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/bomberAI.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/bomberAI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/bomberAI.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/bomberAI.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/bomberAI.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ai/bomberAI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ai/bomberAI.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/bomberAI.cpp > CMakeFiles/DefendVancouver.dir/src/ai/bomberAI.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/bomberAI.cpp > CMakeFiles/DefendVancouver.dir/src/ai/bomberAI.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ai/bomberAI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ai/bomberAI.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/bomberAI.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/bomberAI.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/bomberAI.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/bomberAI.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ai/chaserAI.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ai/chaserAI.cpp.o: ../src/ai/chaserAI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/chaserAI.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/chaserAI.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/chaserAI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/chaserAI.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/chaserAI.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/chaserAI.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ai/chaserAI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ai/chaserAI.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/chaserAI.cpp > CMakeFiles/DefendVancouver.dir/src/ai/chaserAI.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/chaserAI.cpp > CMakeFiles/DefendVancouver.dir/src/ai/chaserAI.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ai/chaserAI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ai/chaserAI.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/chaserAI.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/chaserAI.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/chaserAI.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/chaserAI.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ai/shooterAI.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ai/shooterAI.cpp.o: ../src/ai/shooterAI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/shooterAI.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/shooterAI.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/shooterAI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ai/shooterAI.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ai/shooterAI.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/shooterAI.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ai/shooterAI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ai/shooterAI.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/shooterAI.cpp > CMakeFiles/DefendVancouver.dir/src/ai/shooterAI.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/shooterAI.cpp > CMakeFiles/DefendVancouver.dir/src/ai/shooterAI.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ai/shooterAI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ai/shooterAI.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ai/shooterAI.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/shooterAI.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ai/shooterAI.cpp -o CMakeFiles/DefendVancouver.dir/src/ai/shooterAI.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/background.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/background.cpp.o: ../src/background.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/DefendVancouver.dir/src/background.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/background.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/background.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/DefendVancouver.dir/src/background.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/background.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/background.cpp
 
 CMakeFiles/DefendVancouver.dir/src/background.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/background.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/background.cpp > CMakeFiles/DefendVancouver.dir/src/background.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/background.cpp > CMakeFiles/DefendVancouver.dir/src/background.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/background.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/background.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/background.cpp -o CMakeFiles/DefendVancouver.dir/src/background.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/background.cpp -o CMakeFiles/DefendVancouver.dir/src/background.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/camera.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/camera.cpp.o: ../src/camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/DefendVancouver.dir/src/camera.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/camera.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/DefendVancouver.dir/src/camera.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/camera.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/camera.cpp
 
 CMakeFiles/DefendVancouver.dir/src/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/camera.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/camera.cpp > CMakeFiles/DefendVancouver.dir/src/camera.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/camera.cpp > CMakeFiles/DefendVancouver.dir/src/camera.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/camera.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/camera.cpp -o CMakeFiles/DefendVancouver.dir/src/camera.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/camera.cpp -o CMakeFiles/DefendVancouver.dir/src/camera.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/collisions/quadTreeNode.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/collisions/quadTreeNode.cpp.o: ../src/collisions/quadTreeNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/DefendVancouver.dir/src/collisions/quadTreeNode.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/collisions/quadTreeNode.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/collisions/quadTreeNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/DefendVancouver.dir/src/collisions/quadTreeNode.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/collisions/quadTreeNode.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/collisions/quadTreeNode.cpp
 
 CMakeFiles/DefendVancouver.dir/src/collisions/quadTreeNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/collisions/quadTreeNode.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/collisions/quadTreeNode.cpp > CMakeFiles/DefendVancouver.dir/src/collisions/quadTreeNode.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/collisions/quadTreeNode.cpp > CMakeFiles/DefendVancouver.dir/src/collisions/quadTreeNode.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/collisions/quadTreeNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/collisions/quadTreeNode.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/collisions/quadTreeNode.cpp -o CMakeFiles/DefendVancouver.dir/src/collisions/quadTreeNode.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/collisions/quadTreeNode.cpp -o CMakeFiles/DefendVancouver.dir/src/collisions/quadTreeNode.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/common.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/common.cpp.o: ../src/common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/DefendVancouver.dir/src/common.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/common.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/DefendVancouver.dir/src/common.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/common.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/common.cpp
 
 CMakeFiles/DefendVancouver.dir/src/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/common.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/common.cpp > CMakeFiles/DefendVancouver.dir/src/common.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/common.cpp > CMakeFiles/DefendVancouver.dir/src/common.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/common.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/common.cpp -o CMakeFiles/DefendVancouver.dir/src/common.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/common.cpp -o CMakeFiles/DefendVancouver.dir/src/common.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomb.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomb.cpp.o: ../src/entities/bombs/bomb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomb.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomb.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/bombs/bomb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomb.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomb.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/bombs/bomb.cpp
 
 CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomb.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/bombs/bomb.cpp > CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomb.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/bombs/bomb.cpp > CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomb.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomb.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/bombs/bomb.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomb.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/bombs/bomb.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomb.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomberBomb.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomberBomb.cpp.o: ../src/entities/bombs/bomberBomb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomberBomb.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomberBomb.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/bombs/bomberBomb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomberBomb.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomberBomb.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/bombs/bomberBomb.cpp
 
 CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomberBomb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomberBomb.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/bombs/bomberBomb.cpp > CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomberBomb.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/bombs/bomberBomb.cpp > CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomberBomb.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomberBomb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomberBomb.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/bombs/bomberBomb.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomberBomb.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/bombs/bomberBomb.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/bombs/bomberBomb.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/entities/bombs/normalBomb.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/entities/bombs/normalBomb.cpp.o: ../src/entities/bombs/normalBomb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/bombs/normalBomb.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/bombs/normalBomb.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/bombs/normalBomb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/bombs/normalBomb.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/bombs/normalBomb.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/bombs/normalBomb.cpp
 
 CMakeFiles/DefendVancouver.dir/src/entities/bombs/normalBomb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/entities/bombs/normalBomb.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/bombs/normalBomb.cpp > CMakeFiles/DefendVancouver.dir/src/entities/bombs/normalBomb.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/bombs/normalBomb.cpp > CMakeFiles/DefendVancouver.dir/src/entities/bombs/normalBomb.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/entities/bombs/normalBomb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/entities/bombs/normalBomb.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/bombs/normalBomb.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/bombs/normalBomb.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/bombs/normalBomb.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/bombs/normalBomb.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/entities/bullets/bullet.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/entities/bullets/bullet.cpp.o: ../src/entities/bullets/bullet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/bullets/bullet.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/bullets/bullet.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/bullets/bullet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/bullets/bullet.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/bullets/bullet.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/bullets/bullet.cpp
 
 CMakeFiles/DefendVancouver.dir/src/entities/bullets/bullet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/entities/bullets/bullet.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/bullets/bullet.cpp > CMakeFiles/DefendVancouver.dir/src/entities/bullets/bullet.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/bullets/bullet.cpp > CMakeFiles/DefendVancouver.dir/src/entities/bullets/bullet.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/entities/bullets/bullet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/entities/bullets/bullet.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/bullets/bullet.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/bullets/bullet.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/bullets/bullet.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/bullets/bullet.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/entities/bullets/playerBullet.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/entities/bullets/playerBullet.cpp.o: ../src/entities/bullets/playerBullet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/bullets/playerBullet.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/bullets/playerBullet.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/bullets/playerBullet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/bullets/playerBullet.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/bullets/playerBullet.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/bullets/playerBullet.cpp
 
 CMakeFiles/DefendVancouver.dir/src/entities/bullets/playerBullet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/entities/bullets/playerBullet.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/bullets/playerBullet.cpp > CMakeFiles/DefendVancouver.dir/src/entities/bullets/playerBullet.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/bullets/playerBullet.cpp > CMakeFiles/DefendVancouver.dir/src/entities/bullets/playerBullet.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/entities/bullets/playerBullet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/entities/bullets/playerBullet.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/bullets/playerBullet.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/bullets/playerBullet.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/bullets/playerBullet.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/bullets/playerBullet.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/entities/bullets/shooterBullet.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/entities/bullets/shooterBullet.cpp.o: ../src/entities/bullets/shooterBullet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/bullets/shooterBullet.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/bullets/shooterBullet.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/bullets/shooterBullet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/bullets/shooterBullet.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/bullets/shooterBullet.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/bullets/shooterBullet.cpp
 
 CMakeFiles/DefendVancouver.dir/src/entities/bullets/shooterBullet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/entities/bullets/shooterBullet.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/bullets/shooterBullet.cpp > CMakeFiles/DefendVancouver.dir/src/entities/bullets/shooterBullet.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/bullets/shooterBullet.cpp > CMakeFiles/DefendVancouver.dir/src/entities/bullets/shooterBullet.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/entities/bullets/shooterBullet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/entities/bullets/shooterBullet.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/bullets/shooterBullet.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/bullets/shooterBullet.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/bullets/shooterBullet.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/bullets/shooterBullet.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/entities/enemies/bomber.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/entities/enemies/bomber.cpp.o: ../src/entities/enemies/bomber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/enemies/bomber.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/enemies/bomber.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/enemies/bomber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/enemies/bomber.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/enemies/bomber.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/enemies/bomber.cpp
 
 CMakeFiles/DefendVancouver.dir/src/entities/enemies/bomber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/entities/enemies/bomber.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/enemies/bomber.cpp > CMakeFiles/DefendVancouver.dir/src/entities/enemies/bomber.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/enemies/bomber.cpp > CMakeFiles/DefendVancouver.dir/src/entities/enemies/bomber.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/entities/enemies/bomber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/entities/enemies/bomber.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/enemies/bomber.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/enemies/bomber.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/enemies/bomber.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/enemies/bomber.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/entities/enemies/chaser.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/entities/enemies/chaser.cpp.o: ../src/entities/enemies/chaser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/enemies/chaser.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/enemies/chaser.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/enemies/chaser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/enemies/chaser.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/enemies/chaser.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/enemies/chaser.cpp
 
 CMakeFiles/DefendVancouver.dir/src/entities/enemies/chaser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/entities/enemies/chaser.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/enemies/chaser.cpp > CMakeFiles/DefendVancouver.dir/src/entities/enemies/chaser.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/enemies/chaser.cpp > CMakeFiles/DefendVancouver.dir/src/entities/enemies/chaser.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/entities/enemies/chaser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/entities/enemies/chaser.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/enemies/chaser.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/enemies/chaser.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/enemies/chaser.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/enemies/chaser.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/entities/enemies/enemy.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/entities/enemies/enemy.cpp.o: ../src/entities/enemies/enemy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/enemies/enemy.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/enemies/enemy.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/enemies/enemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/enemies/enemy.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/enemies/enemy.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/enemies/enemy.cpp
 
 CMakeFiles/DefendVancouver.dir/src/entities/enemies/enemy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/entities/enemies/enemy.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/enemies/enemy.cpp > CMakeFiles/DefendVancouver.dir/src/entities/enemies/enemy.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/enemies/enemy.cpp > CMakeFiles/DefendVancouver.dir/src/entities/enemies/enemy.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/entities/enemies/enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/entities/enemies/enemy.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/enemies/enemy.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/enemies/enemy.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/enemies/enemy.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/enemies/enemy.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/entities/enemies/shooter.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/entities/enemies/shooter.cpp.o: ../src/entities/enemies/shooter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/enemies/shooter.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/enemies/shooter.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/enemies/shooter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/enemies/shooter.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/enemies/shooter.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/enemies/shooter.cpp
 
 CMakeFiles/DefendVancouver.dir/src/entities/enemies/shooter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/entities/enemies/shooter.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/enemies/shooter.cpp > CMakeFiles/DefendVancouver.dir/src/entities/enemies/shooter.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/enemies/shooter.cpp > CMakeFiles/DefendVancouver.dir/src/entities/enemies/shooter.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/entities/enemies/shooter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/entities/enemies/shooter.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/enemies/shooter.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/enemies/shooter.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/enemies/shooter.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/enemies/shooter.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/entities/entity.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/entities/entity.cpp.o: ../src/entities/entity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/entity.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/entity.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/entity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/entity.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/entity.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/entity.cpp
 
 CMakeFiles/DefendVancouver.dir/src/entities/entity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/entities/entity.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/entity.cpp > CMakeFiles/DefendVancouver.dir/src/entities/entity.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/entity.cpp > CMakeFiles/DefendVancouver.dir/src/entities/entity.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/entities/entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/entities/entity.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/entity.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/entity.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/entity.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/entity.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/entities/player.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/entities/player.cpp.o: ../src/entities/player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/player.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/player.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/player.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/player.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/player.cpp
 
 CMakeFiles/DefendVancouver.dir/src/entities/player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/entities/player.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/player.cpp > CMakeFiles/DefendVancouver.dir/src/entities/player.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/player.cpp > CMakeFiles/DefendVancouver.dir/src/entities/player.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/entities/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/entities/player.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/player.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/player.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/player.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/player.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/entities/powerups/cityUp.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/entities/powerups/cityUp.cpp.o: ../src/entities/powerups/cityUp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/powerups/cityUp.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/powerups/cityUp.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/powerups/cityUp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/powerups/cityUp.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/powerups/cityUp.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/powerups/cityUp.cpp
 
 CMakeFiles/DefendVancouver.dir/src/entities/powerups/cityUp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/entities/powerups/cityUp.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/powerups/cityUp.cpp > CMakeFiles/DefendVancouver.dir/src/entities/powerups/cityUp.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/powerups/cityUp.cpp > CMakeFiles/DefendVancouver.dir/src/entities/powerups/cityUp.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/entities/powerups/cityUp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/entities/powerups/cityUp.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/powerups/cityUp.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/powerups/cityUp.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/powerups/cityUp.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/powerups/cityUp.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/entities/powerups/oneUp.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/entities/powerups/oneUp.cpp.o: ../src/entities/powerups/oneUp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/powerups/oneUp.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/powerups/oneUp.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/powerups/oneUp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/powerups/oneUp.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/powerups/oneUp.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/powerups/oneUp.cpp
 
 CMakeFiles/DefendVancouver.dir/src/entities/powerups/oneUp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/entities/powerups/oneUp.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/powerups/oneUp.cpp > CMakeFiles/DefendVancouver.dir/src/entities/powerups/oneUp.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/powerups/oneUp.cpp > CMakeFiles/DefendVancouver.dir/src/entities/powerups/oneUp.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/entities/powerups/oneUp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/entities/powerups/oneUp.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/powerups/oneUp.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/powerups/oneUp.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/powerups/oneUp.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/powerups/oneUp.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/entities/powerups/powerUp.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/entities/powerups/powerUp.cpp.o: ../src/entities/powerups/powerUp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/powerups/powerUp.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/powerups/powerUp.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/powerups/powerUp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/powerups/powerUp.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/powerups/powerUp.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/powerups/powerUp.cpp
 
 CMakeFiles/DefendVancouver.dir/src/entities/powerups/powerUp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/entities/powerups/powerUp.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/powerups/powerUp.cpp > CMakeFiles/DefendVancouver.dir/src/entities/powerups/powerUp.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/powerups/powerUp.cpp > CMakeFiles/DefendVancouver.dir/src/entities/powerups/powerUp.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/entities/powerups/powerUp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/entities/powerups/powerUp.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/powerups/powerUp.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/powerups/powerUp.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/powerups/powerUp.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/powerups/powerUp.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/entities/powerups/shield.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/entities/powerups/shield.cpp.o: ../src/entities/powerups/shield.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/powerups/shield.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/powerups/shield.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/powerups/shield.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/DefendVancouver.dir/src/entities/powerups/shield.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/entities/powerups/shield.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/powerups/shield.cpp
 
 CMakeFiles/DefendVancouver.dir/src/entities/powerups/shield.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/entities/powerups/shield.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/powerups/shield.cpp > CMakeFiles/DefendVancouver.dir/src/entities/powerups/shield.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/powerups/shield.cpp > CMakeFiles/DefendVancouver.dir/src/entities/powerups/shield.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/entities/powerups/shield.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/entities/powerups/shield.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/entities/powerups/shield.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/powerups/shield.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/entities/powerups/shield.cpp -o CMakeFiles/DefendVancouver.dir/src/entities/powerups/shield.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/explosion.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/explosion.cpp.o: ../src/explosion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/DefendVancouver.dir/src/explosion.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/explosion.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/explosion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/DefendVancouver.dir/src/explosion.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/explosion.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/explosion.cpp
 
 CMakeFiles/DefendVancouver.dir/src/explosion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/explosion.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/explosion.cpp > CMakeFiles/DefendVancouver.dir/src/explosion.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/explosion.cpp > CMakeFiles/DefendVancouver.dir/src/explosion.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/explosion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/explosion.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/explosion.cpp -o CMakeFiles/DefendVancouver.dir/src/explosion.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/explosion.cpp -o CMakeFiles/DefendVancouver.dir/src/explosion.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/main.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/DefendVancouver.dir/src/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/main.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/DefendVancouver.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/main.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/main.cpp
 
 CMakeFiles/DefendVancouver.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/main.cpp > CMakeFiles/DefendVancouver.dir/src/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/main.cpp > CMakeFiles/DefendVancouver.dir/src/main.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/main.cpp -o CMakeFiles/DefendVancouver.dir/src/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/main.cpp -o CMakeFiles/DefendVancouver.dir/src/main.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/shipParticle.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/shipParticle.cpp.o: ../src/shipParticle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/DefendVancouver.dir/src/shipParticle.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/shipParticle.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/shipParticle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/DefendVancouver.dir/src/shipParticle.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/shipParticle.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/shipParticle.cpp
 
 CMakeFiles/DefendVancouver.dir/src/shipParticle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/shipParticle.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/shipParticle.cpp > CMakeFiles/DefendVancouver.dir/src/shipParticle.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/shipParticle.cpp > CMakeFiles/DefendVancouver.dir/src/shipParticle.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/shipParticle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/shipParticle.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/shipParticle.cpp -o CMakeFiles/DefendVancouver.dir/src/shipParticle.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/shipParticle.cpp -o CMakeFiles/DefendVancouver.dir/src/shipParticle.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/stars.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/stars.cpp.o: ../src/stars.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/DefendVancouver.dir/src/stars.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/stars.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/stars.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/DefendVancouver.dir/src/stars.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/stars.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/stars.cpp
 
 CMakeFiles/DefendVancouver.dir/src/stars.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/stars.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/stars.cpp > CMakeFiles/DefendVancouver.dir/src/stars.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/stars.cpp > CMakeFiles/DefendVancouver.dir/src/stars.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/stars.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/stars.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/stars.cpp -o CMakeFiles/DefendVancouver.dir/src/stars.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/stars.cpp -o CMakeFiles/DefendVancouver.dir/src/stars.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/states/gameOver.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/states/gameOver.cpp.o: ../src/states/gameOver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/DefendVancouver.dir/src/states/gameOver.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/states/gameOver.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/states/gameOver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/DefendVancouver.dir/src/states/gameOver.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/states/gameOver.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/states/gameOver.cpp
 
 CMakeFiles/DefendVancouver.dir/src/states/gameOver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/states/gameOver.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/states/gameOver.cpp > CMakeFiles/DefendVancouver.dir/src/states/gameOver.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/states/gameOver.cpp > CMakeFiles/DefendVancouver.dir/src/states/gameOver.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/states/gameOver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/states/gameOver.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/states/gameOver.cpp -o CMakeFiles/DefendVancouver.dir/src/states/gameOver.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/states/gameOver.cpp -o CMakeFiles/DefendVancouver.dir/src/states/gameOver.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/states/highScore.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/states/highScore.cpp.o: ../src/states/highScore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/DefendVancouver.dir/src/states/highScore.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/states/highScore.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/states/highScore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/DefendVancouver.dir/src/states/highScore.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/states/highScore.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/states/highScore.cpp
 
 CMakeFiles/DefendVancouver.dir/src/states/highScore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/states/highScore.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/states/highScore.cpp > CMakeFiles/DefendVancouver.dir/src/states/highScore.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/states/highScore.cpp > CMakeFiles/DefendVancouver.dir/src/states/highScore.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/states/highScore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/states/highScore.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/states/highScore.cpp -o CMakeFiles/DefendVancouver.dir/src/states/highScore.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/states/highScore.cpp -o CMakeFiles/DefendVancouver.dir/src/states/highScore.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/states/information.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/states/information.cpp.o: ../src/states/information.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/DefendVancouver.dir/src/states/information.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/states/information.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/states/information.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/DefendVancouver.dir/src/states/information.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/states/information.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/states/information.cpp
 
 CMakeFiles/DefendVancouver.dir/src/states/information.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/states/information.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/states/information.cpp > CMakeFiles/DefendVancouver.dir/src/states/information.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/states/information.cpp > CMakeFiles/DefendVancouver.dir/src/states/information.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/states/information.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/states/information.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/states/information.cpp -o CMakeFiles/DefendVancouver.dir/src/states/information.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/states/information.cpp -o CMakeFiles/DefendVancouver.dir/src/states/information.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/states/startScreen.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/states/startScreen.cpp.o: ../src/states/startScreen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/DefendVancouver.dir/src/states/startScreen.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/states/startScreen.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/states/startScreen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/DefendVancouver.dir/src/states/startScreen.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/states/startScreen.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/states/startScreen.cpp
 
 CMakeFiles/DefendVancouver.dir/src/states/startScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/states/startScreen.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/states/startScreen.cpp > CMakeFiles/DefendVancouver.dir/src/states/startScreen.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/states/startScreen.cpp > CMakeFiles/DefendVancouver.dir/src/states/startScreen.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/states/startScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/states/startScreen.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/states/startScreen.cpp -o CMakeFiles/DefendVancouver.dir/src/states/startScreen.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/states/startScreen.cpp -o CMakeFiles/DefendVancouver.dir/src/states/startScreen.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/states/state.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/states/state.cpp.o: ../src/states/state.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/DefendVancouver.dir/src/states/state.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/states/state.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/states/state.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/DefendVancouver.dir/src/states/state.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/states/state.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/states/state.cpp
 
 CMakeFiles/DefendVancouver.dir/src/states/state.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/states/state.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/states/state.cpp > CMakeFiles/DefendVancouver.dir/src/states/state.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/states/state.cpp > CMakeFiles/DefendVancouver.dir/src/states/state.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/states/state.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/states/state.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/states/state.cpp -o CMakeFiles/DefendVancouver.dir/src/states/state.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/states/state.cpp -o CMakeFiles/DefendVancouver.dir/src/states/state.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ui/Digit.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ui/Digit.cpp.o: ../src/ui/Digit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/Digit.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/Digit.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/Digit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/Digit.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/Digit.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/Digit.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ui/Digit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ui/Digit.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/Digit.cpp > CMakeFiles/DefendVancouver.dir/src/ui/Digit.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/Digit.cpp > CMakeFiles/DefendVancouver.dir/src/ui/Digit.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ui/Digit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ui/Digit.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/Digit.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/Digit.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/Digit.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/Digit.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ui/GameOverUI.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ui/GameOverUI.cpp.o: ../src/ui/GameOverUI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/GameOverUI.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/GameOverUI.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/GameOverUI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/GameOverUI.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/GameOverUI.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/GameOverUI.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ui/GameOverUI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ui/GameOverUI.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/GameOverUI.cpp > CMakeFiles/DefendVancouver.dir/src/ui/GameOverUI.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/GameOverUI.cpp > CMakeFiles/DefendVancouver.dir/src/ui/GameOverUI.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ui/GameOverUI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ui/GameOverUI.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/GameOverUI.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/GameOverUI.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/GameOverUI.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/GameOverUI.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ui/HighScoreUI.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ui/HighScoreUI.cpp.o: ../src/ui/HighScoreUI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/HighScoreUI.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/HighScoreUI.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/HighScoreUI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/HighScoreUI.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/HighScoreUI.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/HighScoreUI.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ui/HighScoreUI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ui/HighScoreUI.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/HighScoreUI.cpp > CMakeFiles/DefendVancouver.dir/src/ui/HighScoreUI.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/HighScoreUI.cpp > CMakeFiles/DefendVancouver.dir/src/ui/HighScoreUI.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ui/HighScoreUI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ui/HighScoreUI.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/HighScoreUI.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/HighScoreUI.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/HighScoreUI.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/HighScoreUI.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ui/UI.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ui/UI.cpp.o: ../src/ui/UI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/UI.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/UI.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/UI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/UI.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/UI.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/UI.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ui/UI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ui/UI.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/UI.cpp > CMakeFiles/DefendVancouver.dir/src/ui/UI.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/UI.cpp > CMakeFiles/DefendVancouver.dir/src/ui/UI.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ui/UI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ui/UI.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/UI.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/UI.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/UI.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/UI.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ui/UIobject.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ui/UIobject.cpp.o: ../src/ui/UIobject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/UIobject.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/UIobject.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/UIobject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/UIobject.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/UIobject.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/UIobject.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ui/UIobject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ui/UIobject.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/UIobject.cpp > CMakeFiles/DefendVancouver.dir/src/ui/UIobject.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/UIobject.cpp > CMakeFiles/DefendVancouver.dir/src/ui/UIobject.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ui/UIobject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ui/UIobject.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/UIobject.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/UIobject.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/UIobject.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/UIobject.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ui/enemyIndicator.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ui/enemyIndicator.cpp.o: ../src/ui/enemyIndicator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/enemyIndicator.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/enemyIndicator.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/enemyIndicator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/enemyIndicator.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/enemyIndicator.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/enemyIndicator.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ui/enemyIndicator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ui/enemyIndicator.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/enemyIndicator.cpp > CMakeFiles/DefendVancouver.dir/src/ui/enemyIndicator.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/enemyIndicator.cpp > CMakeFiles/DefendVancouver.dir/src/ui/enemyIndicator.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ui/enemyIndicator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ui/enemyIndicator.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/enemyIndicator.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/enemyIndicator.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/enemyIndicator.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/enemyIndicator.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ui/playerIcon.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ui/playerIcon.cpp.o: ../src/ui/playerIcon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/playerIcon.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/playerIcon.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/playerIcon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/playerIcon.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/playerIcon.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/playerIcon.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ui/playerIcon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ui/playerIcon.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/playerIcon.cpp > CMakeFiles/DefendVancouver.dir/src/ui/playerIcon.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/playerIcon.cpp > CMakeFiles/DefendVancouver.dir/src/ui/playerIcon.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ui/playerIcon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ui/playerIcon.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/playerIcon.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/playerIcon.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/playerIcon.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/playerIcon.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ui/playerLives.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ui/playerLives.cpp.o: ../src/ui/playerLives.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/playerLives.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/playerLives.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/playerLives.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/playerLives.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/playerLives.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/playerLives.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ui/playerLives.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ui/playerLives.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/playerLives.cpp > CMakeFiles/DefendVancouver.dir/src/ui/playerLives.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/playerLives.cpp > CMakeFiles/DefendVancouver.dir/src/ui/playerLives.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ui/playerLives.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ui/playerLives.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/playerLives.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/playerLives.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/playerLives.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/playerLives.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ui/score.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ui/score.cpp.o: ../src/ui/score.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/score.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/score.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/score.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/score.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/score.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/score.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ui/score.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ui/score.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/score.cpp > CMakeFiles/DefendVancouver.dir/src/ui/score.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/score.cpp > CMakeFiles/DefendVancouver.dir/src/ui/score.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ui/score.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ui/score.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/score.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/score.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/score.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/score.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ui/waveIcon.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ui/waveIcon.cpp.o: ../src/ui/waveIcon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/waveIcon.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/waveIcon.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/waveIcon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/waveIcon.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/waveIcon.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/waveIcon.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ui/waveIcon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ui/waveIcon.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/waveIcon.cpp > CMakeFiles/DefendVancouver.dir/src/ui/waveIcon.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/waveIcon.cpp > CMakeFiles/DefendVancouver.dir/src/ui/waveIcon.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ui/waveIcon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ui/waveIcon.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/waveIcon.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/waveIcon.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/waveIcon.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/waveIcon.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/ui/worldHealth.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/ui/worldHealth.cpp.o: ../src/ui/worldHealth.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/worldHealth.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/worldHealth.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/worldHealth.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/DefendVancouver.dir/src/ui/worldHealth.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/ui/worldHealth.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/worldHealth.cpp
 
 CMakeFiles/DefendVancouver.dir/src/ui/worldHealth.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/ui/worldHealth.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/worldHealth.cpp > CMakeFiles/DefendVancouver.dir/src/ui/worldHealth.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/worldHealth.cpp > CMakeFiles/DefendVancouver.dir/src/ui/worldHealth.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/ui/worldHealth.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/ui/worldHealth.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/ui/worldHealth.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/worldHealth.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/ui/worldHealth.cpp -o CMakeFiles/DefendVancouver.dir/src/ui/worldHealth.cpp.s
 
 CMakeFiles/DefendVancouver.dir/src/world.cpp.o: CMakeFiles/DefendVancouver.dir/flags.make
 CMakeFiles/DefendVancouver.dir/src/world.cpp.o: ../src/world.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/DefendVancouver.dir/src/world.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/world.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/world.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/DefendVancouver.dir/src/world.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DefendVancouver.dir/src/world.cpp.o -c /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/world.cpp
 
 CMakeFiles/DefendVancouver.dir/src/world.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DefendVancouver.dir/src/world.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/world.cpp > CMakeFiles/DefendVancouver.dir/src/world.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/world.cpp > CMakeFiles/DefendVancouver.dir/src/world.cpp.i
 
 CMakeFiles/DefendVancouver.dir/src/world.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DefendVancouver.dir/src/world.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/src/world.cpp -o CMakeFiles/DefendVancouver.dir/src/world.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/src/world.cpp -o CMakeFiles/DefendVancouver.dir/src/world.cpp.s
 
 # Object files for target DefendVancouver
 DefendVancouver_OBJECTS = \
@@ -936,7 +936,7 @@ DefendVancouver: CMakeFiles/DefendVancouver.dir/src/world.cpp.o
 DefendVancouver: CMakeFiles/DefendVancouver.dir/build.make
 DefendVancouver: glfw-3.2.1/src/libglfw3.a
 DefendVancouver: CMakeFiles/DefendVancouver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Linking CXX executable DefendVancouver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Linking CXX executable DefendVancouver"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DefendVancouver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -949,6 +949,6 @@ CMakeFiles/DefendVancouver.dir/clean:
 .PHONY : CMakeFiles/DefendVancouver.dir/clean
 
 CMakeFiles/DefendVancouver.dir/depend:
-	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/CMakeFiles/DefendVancouver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug /Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/CMakeFiles/DefendVancouver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DefendVancouver.dir/depend
 

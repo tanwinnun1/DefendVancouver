@@ -6,5 +6,5 @@ C_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk 
 
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/glfw-3.2.1/include -I/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/glfw-3.2.1/src -I/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver-master/cmake-build-debug/glfw-3.2.1/src 
+C_INCLUDES = -I/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/glfw-3.2.1/include -I/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/glfw-3.2.1/src -I/Users/tanwin.nun/Desktop/projects/repos/DefendVancouver/cmake-build-debug/glfw-3.2.1/src 
 
